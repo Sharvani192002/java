@@ -4,11 +4,16 @@ import java.util.Scanner;
 
 public class Perfect {
     public static void main(String[] args) {
-        int s=0;
+        int num ,s=0;
         Scanner sc= new Scanner(System.in);
-        int num=sc.nextInt();
-        for(int i=0; i<num; i++){
-            s=s+i;
+         num=sc.nextInt();
+        int i=1;
+        while(i<num/2){
+
+            if(num%i==0){
+                s=s+i;
+            }
+            i++;
         }
         if(num==s){
             System.out.println("perfect");

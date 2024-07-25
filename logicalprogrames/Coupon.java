@@ -1,2 +1,7 @@
-package logicalprogrames;public class Coupon {
+package logicalprogrames;
+
+public class Coupon {
+    public static void main(String[] args) {
+
+    }
 }

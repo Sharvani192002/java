@@ -15,7 +15,7 @@ public class FlipCoin {
             System.out.println("The percentage of heads:" +Math.random()/c*100);
         }
 
-        C:\Users\sharvan.iikkurti\IdeaProjects\Java Problems1
+
 
     }
 }
